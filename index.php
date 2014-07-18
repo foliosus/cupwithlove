@@ -28,7 +28,7 @@
       <li><a href="/contact.php" title="Request a cup for yourself or someone you know">Request a cup</a></li>
     </ul>
   </div>
-  
+
   <div>
     <h5>Volunteers</h5>
     <ul>
@@ -36,7 +36,7 @@
       <li><a href="/volunteers.php" title="Prospective volunteer information">Join a growing movement</a></li>
     </ul>
   </div>
-  
+
   <div>
     <h5>Donors</h5>
     <ul>
@@ -51,16 +51,27 @@
 </div>
 
 <div id="awards">
-  <h3>Cup With Love on TV</h3>
-  <p>The following segment aired on <a href="http://www.kcra.com/" title="Channel 3">KCRA</a> in 2007. The contact information given at the end of the segment is no longer correct; please use <a href="/contact.php" title="Contact Cup With Love">our current contact information</a> instead.</p>
-  
-  <p><embed id="VideoPlayback" src="http://video.google.com/googleplayer.swf?docid=-8305300724597983975&amp;hl=en&amp;fs=true" style="width:590px;height:481px" allowFullScreen="true" allowScriptAccess="always" type="application/x-shockwave-flash"> </embed></p>
+  <h3>Gifted by Angels</h3>
+
+  <blockquote>
+    <p>&#8220;The angels heard of your cancer journey and gathered in flight to reach you.  In the rustling of their wings they bring you prayers of healing, hope and to give you a source of comfort and inner strength to fight the fight.</p>
+
+    <p>The angels embraced you through their acts of kindness, giving unconditionally, sometimes borrowing the faces of family and friends, and at times posing as well-meaning strangers.</p>
+
+    <p>As you hold this cup know that it is filled with love, hope and courage, and if you close your eyes and be still you may hear the rustling of angel's wings that surround you as they guard you in all your ways.&#8221;</p>
+
+    <p><cite>Molly Ximenez, June 7, 2006</cite></p>
+  </blockquote>
 
   <h3>Cup With Love highlights</h3>
   <ul>
     <li>
-      <h5>Molly Ximenez throws the first pitch</h5>
-      <p>April, 2010 &mdash; Molly Ximenez, Cup With Love founder, <a href="events.php" title="See the photo">throws the first pitch</a> for the Sacramento State Hornets softball team in honor of Breast Cancer Awareness Month.</p>
+      <h5>Fundraiser at Bogle Vineyards &amp; Winery</h5>
+      <p>Friends and family of Cup With Love enjoyed a lovely, outdoor brunch and silent auction (fundraiser) in October '13.  Thanks to <a href="http://www.boglewinery.com/">Bogle Vineyards &amp; Winery</a>'s great support and beautiful surroundings, cup distribution can reach more survivors in need around the globe.</p>
+    </li>
+    <li>
+      <h5>Vespa scooter raffle</h5>
+      <p>Thanks to  <a href="http://www.mylifetime.com/" title="Lifetime home page">Lifetime</a> and <a href="http://www.vespausa.com/" title="Vespa promotion page">Vespa USA</a>, the Cup With Love was thrilled to have been to able offer a pink LX 50 Vespa scooter (one of a limited edition of 1000) to lucky raffle winner (and cancer survivor), Stan Czarnecki of Ocala, Florida. Stan's ticket was chosen on November 1st '09, at our raffle drawing event at Hot Italian Pizza and Panini Bar, from more than 1,000 tickets sold to support the Cup With Love's cup donation program.</p>
     <li>
       <h5>Site redesign</h5>
       <p>September 25, 2009 &mdash; We have launched a site redesign, with our new logo, to reflect our growing dedication to help cancer survivors.</p>
@@ -74,10 +85,10 @@
 
 <div id="news">
   <h3>Show your support!</h3>
-  <a href="http://charitygiftmarket.com/canvas-cup-with-love-baseball-cap/" title="Buy a baseball cap to show your support!"><img src="/images/baseball_hat.jpg" width="278" height="278" alt="Cup with Love Project baseball cap"></a>
+  <a href="http://charitygiftmarket.com/canvas-cup-with-love-baseball-cap/" title="Buy a baseball cap to show your support!" class="donation"><img src="/images/baseball_hat.jpg" width="278" height="278" alt="Cup with Love Project baseball cap"></a>
   <p>Has the Cup With Love Project touched you or someone you love? Show your support with our new <a href="http://charitygiftmarket.com/canvas-cup-with-love-baseball-cap/" title="Buy a baseball cap to show your support!">baseball caps</a>!</p>
   <p>The caps come in two colors, with optional &quot;survivor&quot; embroidery on the back.</p>
-  <p><a href="http://charitygiftmarket.com/canvas-cup-with-love-baseball-cap/" title="Buy a baseball cap to show your support!">Buy one online</a>, or donate to the Cup With Love Project via PayPal and receive a complimentary cap. When making a donation of $50 or more, just put a note in your purchase specifying the color (light khaki or dark khaki) and if you want the optional &quot;survivor&quot; embroidery or not. We'll take care of the rest!</p>
+  <p><a href="http://charitygiftmarket.com/canvas-cup-with-love-baseball-cap/" title="Buy a baseball cap to show your support!">Buy one online</a>, or donate to the Cup With Love Project via PayPal and receive a complimentary cap. When making a donation of $25 or more, just put a note in your purchase specifying the color (light khaki or dark khaki) and if you want the optional &quot;survivor&quot; embroidery or not. We'll take care of the rest!</p>
   <?php include 'includes/paypal_form.php' ?>
 </div>
 

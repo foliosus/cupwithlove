@@ -11,7 +11,7 @@
 
 <img src="/images/preparing_cups.jpg" width="278" height="424" alt="Preparing cups" class="text_wrap" />
 
-<p>Our mission is to enhance the quality of life for those impacted by cancer. It takes an Army of Love so we invite you to become one of our soldiers of love through helping with fund raising activities; collecting tea cups and saucers, coffee mugs, childrens cups, stuff animals, individually wrapped candies, wire ribbon, small gift items such as hotel shampoos, conditioners, soaps, individual wrapped tea bags or hot chocolate, and any small tokens of inspiration that are included in each gift; and assisting in wrapping, shipping and delivering Cups With Love to those traveling the cancer journey.</p>
+<p>Our mission is to enhance the quality of life for those impacted by cancer. It takes an Army of Love so we invite you to become one of our soldiers of love through helping with fund raising activities; collecting tea cups and saucers, coffee mugs, childrens cups, stuff animals, individually wrapped candies, wire ribbon, small gift items such as travel-sized shampoos, conditioners, soaps, individual wrapped tea bags or hot chocolate, and any small tokens of inspiration that are included in each gift; and assisting in wrapping, shipping and delivering Cups With Love to those traveling the cancer journey.</p>
 
 <p>Thank you for your consideration.</p>
 

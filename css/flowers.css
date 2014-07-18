@@ -92,12 +92,15 @@ pre 				{ margin: 1.5em 0; white-space: pre; }
 pre,code,tt { font: 1em 'andale mono', 'lucida console', monospace; line-height: 1.5; }
 
 cite, .cite { text-align: right; font-style: italic; }
+cite:before {
+  content: '\2014 ';
+}
 
 
 /* Lists
 -------------------------------------------------------------- */
 
-li ul, 
+li ul,
 li ol       { margin:0 1.5em; }
 ul, ol      { margin: 0 1.5em 1.5em 1.5em; }
 
@@ -177,6 +180,8 @@ textarea      { width: 390px; height: 250px; padding:5px; }
 
 span.hint { display: block; font-style: italic; }
 
+.maybe_required { display: none; }
+textarea#recipient_address, textarea#requestor_address { height: 50px; }
 
 /* Success, notice and error boxes
 -------------------------------------------------------------- */
@@ -196,8 +201,8 @@ ul.error    { padding: 0.8em 1.5em; margin: 0 0 1em; }
 /* Page structure
 -------------------------------------------------------------- */
 
-#container { width: 960px; margin: 40px auto; background-color: #e5eaff; border: 1px solid #6b8de0; text-align: left; 
-  -webkit-box-shadow: 0 0 10px rgba(0,0,0, 0.75); -moz-box-shadow: 0 0 10px rgba(0,0,0, 0.75); box-shadow: 0 0 10px rgba(0,0,0, 0.75); }
+#container { width: 960px; margin: 40px auto; background-color: #f4f6ff; border: 1px solid #6b8de0; text-align: left; 
+  -webkit-box-shadow: 0 0 20px rgba(0,0,0, 0.5); -moz-box-shadow: 0 0 20px rgba(0,0,0, 0.5); box-shadow: 0 0 20px rgba(0,0,0, 0.5); }
 #container, .dropShadow { border-radius: 20px; -moz-border-radius: 20px; -webkit-border-radius: 20px; }
 #banner { height: 185px; background: url(banner_background.jpg) top left repeat-x; position: relative;
   border-top-left-radius: 20px; border-top-right-radius: 20px; -moz-border-radius-topleft: 20px; -moz-border-radius-topright: 20px; -webkit-border-top-right-radius: 20px; -webkit-border-top-left-radius: 20px; }
@@ -206,6 +211,7 @@ ul.error    { padding: 0.8em 1.5em; margin: 0 0 1em; }
   #banner p.gift { height: 30px; width: 290px; position: absolute; top: 149px; right: 25px; background: transparent url(giving_the_gift.png) top left no-repeat; }
 #footer { padding-top: 4.5em; padding-bottom: 1.5em; text-align: center; color: #666; font-size: 0.75em; clear: both; line-height: 32px; }
   #footer p { margin-bottom: 0; }
+  #footer a.facebook { border-bottom: none; }
 
 #navigation { width: 900px; height: 30px; float: left; list-style-type: none; margin: 0 0 1.5em; padding: 0 30px; color: #fff; font-weight: bold;
               background: #2e47a0 url(nav_background.jpg) repeat-x; }
@@ -234,7 +240,7 @@ ul.error    { padding: 0.8em 1.5em; margin: 0 0 1em; }
 --------------------------------------------------------------- */
 #primary_content img { border: 1px solid #354670; }
 iframe { border: 1px solid #354670; }
-#primary_content img.text_wrap { float: right; background-color: #354670; padding: 1px; border-left: 15px solid #e5eaff; border-bottom: 15px solid #e5eaff; border-top: none; border-right: none; }
+#primary_content img.text_wrap { float: right; background-color: #354670; padding: 1px; border-left: 15px solid #f4f6ff; border-bottom: 15px solid #f4f6ff; border-top: none; border-right: none; }
 
 /* Index page
 --------------------------------------------------------------- */
@@ -251,7 +257,7 @@ iframe { border: 1px solid #354670; }
   #target_groups ul { margin-left: 3em; margin-right: 1.5em; list-style-image: url(white_arrow.png); }
   #target_groups h5 { background-color: #fff; color: #354670; text-shadow: #ccc 1px 1px 2px; padding: 0.3em; text-align: center; font-size: 1.2em;
                       border-top-left-radius: 10px; -moz-border-radius-topleft: 10px; -moz-border-radius-topright: 10px;
-                      -webkit-border-top-left-radius: 10px; -webkit-border-top-right-radius: 10px; 
+                      -webkit-border-top-left-radius: 10px; -webkit-border-top-right-radius: 10px;
                       border-bottom: 1px solid #4f7a9f; margin-bottom: 0.5em; }
   #target_groups a, #target_groups a:link, #target_groups a:visited { color: #fff; }
   #target_groups a:hover, #target_groups a:hover { color: #27377a; }
@@ -259,17 +265,19 @@ iframe { border: 1px solid #354670; }
   #target_groups h6 { color: #fff; }
   #target_groups form { text-align: center; margin-left: -1.5em; }
 
-#awards { width: 590px; margin-right: 30px; float: left; clear: both; }
-#news { width: 280px; float: left; }
+#awards, #events { width: 590px; margin-right: 30px; float: left; clear: both; }
+#news, #sidebar { width: 280px; float: left; }
   #awards ul, #news ul { list-style-type: none; margin-left: 0; }
   #awards h5 { color: inherit; margin-bottom: 0; }
   #awards .more, #news .more { text-align: right; }
+  #news a.donation { border: none; }
 
 #vision h3, #mission h3, #awards h3, #news h3 { border-bottom: 0.05em solid; }
 
 /* Other pages
 --------------------------------------------------------------- */
 ul.board_members, ul.sponsorships, ul.columns { list-style-type: none; margin-left: 0; margin-right: 0; float: left; }
+  ul.sponsorships + h3 { clear: left; }
   ul.board_members li, ul.sponsorships li, ul.columns li { float: left; width: 435px;}
   ul.board_members li.odd, ul.sponsorships li.odd, ul.columns li.odd { margin-right: 30px; clear: left; }
   ul.sponsorships li p { width: 210px; float: left; min-height: 117px; text-align: center; }
@@ -280,16 +288,21 @@ ul.board_members, ul.sponsorships, ul.columns { list-style-type: none; margin-le
   ul.sponsorships li.text a { border-bottom: 1px dotted; }
   ul.sponsorships li.text a:hover { border-bottom: 1px solid; }
   #primary_content ul.sponsorships img:hover { border: 1px solid #f80303; }
-  
-.genesis_story, .poem { width: 435px; float: left; }
+
+.genesis_story, .presidents_message { width: 435px; float: left; }
 .genesis_story { margin-right: 30px; }
 
-.donation_requests { width: 500px; float: left; }
-  .donation_requests form { float: left; }
-#primary_content .donation_requests img { border: none; float: left; }
+.donation_requests { text-align: center; }
+  .donation_requests form { margin-right: 5em; display: inline-block;}
+  .donation_requests a { border-bottom: none; }
+#primary_content .donation_requests img { border: none; }
 
 label { display: block; }
 label.error { color: #8a1f11; background-color: transparent; border: none; padding: 0; margin: 0;}
 
-div#howto_gift { float: right; width: 465px; padding-left: 30px; background-color: #e5eaff;}
+div#howto_gift { float: right; width: 465px; padding-left: 30px; background-color: #f4f6ff;}
 div#howto_gift + h2 { clear: none; }
+
+#events p.image { text-align: center; }
+#events p.image a { border-bottom: none; }
+#events img { margin: 0 auto; }

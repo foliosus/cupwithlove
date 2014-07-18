@@ -3,6 +3,10 @@ $replyemail="CWLPEmail@gmail.com"; // email address
 
 //clean input in case of header injection attempts!
 function clean_input_4email($value, $check_all_patterns = true) {
+	if (empty($value)) {
+		return '';
+	}
+
 	$patterns[0] = '/content-type:/i';
 	$patterns[1] = '/to:/i';
 	$patterns[2] = '/cc:/i';
@@ -19,7 +23,7 @@ function clean_input_4email($value, $check_all_patterns = true) {
 
 function check_email_address($email) {
 	// From http://www.ilovejackdaniels.com/php/email-address-validation/
-	
+
 	// First, we check that there's one @ symbol, and that the lengths are right
 	if (!ereg("^[^@]{1,64}@[^@]{1,255}$", $email)) {
 		// Email invalid because wrong number of characters in one section, or wrong number of @ symbols.
@@ -50,9 +54,9 @@ function check_email_address($email) {
 function valid_referer($path) {
   $valid_ref1="http://www.cupwithlove.org/$path"; // valid source of input
   $valid_ref2="http://cupwithlove.org/$path";// valid source of input
-  
+
   $ref_page = $_SERVER["HTTP_REFERER"];
 	return ($ref_page != $valid_ref1 && $ref_page != $valid_ref2 );
-}
+};
 
 ?>

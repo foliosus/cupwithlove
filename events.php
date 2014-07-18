@@ -7,16 +7,20 @@
 
 <h1>Events</h1>
 
-<h2>Molly Ximenez throws the first pitch</h2>
+<div id="events">
+  <h2>Alfresco at Bogle Vineyards &amp; Winery</h2>
 
-<img src="/images/hornets_softball.jpg" width="572" height="379" alt="Molly Ximenez throws the first pitch for the Sacramento State Hornets softball team, April 2010" class="text_wrap" />
+  <p>Cup With Love is very grateful to <a href="http://www.boglewinery.com/">Bogle Vineyards &amp; Winery</a> for hosting us for a fundraiser on July 18, 2014. The entrance proceeds from their regular Friday Alfresco event will go to support Cup With Love and help us reach more people on their cancer journeys.</p>
 
-<p>Molly Ximenez, founder of Cup With Love, was asked throw the first pitch of the <a href="http://www.hornetsports.com/sports/softball/" title="Go to the team home page">Sacramento State Hornets softball team</a>. Since April is Breast Cancer Awareness Month, they decided to honor Molly for her contributions to the fight against Cancer. That's Molly in the center of the lineup, not in uniform.</p>
+  <p>Come join us for great wine, music by the <a href="http://www.meremortalsband.com/">Mere Mortals Band</a> with Kyle Rowland, and food by Chando's Tacos in the gorgeous setting of Bogle Winery!</p>
 
-<h2>National Breast Cancer Awareness Month</h2>
+  <p class="image">
+    <a href="http://www.boglewinery.com/"><img src="/images/bogle_fundraiser.jpg" width="400" height="512" alt="Poster for Bogle Vineyards' Alfresco Friday event" /></a>
+  </p>
+</div>
 
-<img src="/images/prepared_cup_2.jpg" width="278" height="444" alt="A cup, waiting with love" class="text_wrap" />
-
-<?php include './includes/vespa.php' ?>
+<div id="sidebar">
+  <img src="/images/prepared_cup_2.jpg" width="278" height="494" alt="Cups for children, waiting with love" class="text_wrap" />
+</div>
 
 <?php include './includes/bottom.php' ?>

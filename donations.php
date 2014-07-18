@@ -17,7 +17,7 @@
 
 <h3>Get a free baseball cap!</h3>
 
-<p>Donors of $50 or more will receive a complimentary <a href="http://charitygiftmarket.com/canvas-cup-with-love-baseball-cap/" title="Buy a baseball cap to show your support!">Cup With Love Project baseball cap</a>! On your PayPal order or donation form, just specify the color (light khaki or dark khaki) and if you want the optional &quot;survivor&quot; embroidery. We'll take care of the rest!</p>
+<p>Donors of $25 or more will receive a complimentary <a href="http://charitygiftmarket.com/canvas-cup-with-love-baseball-cap/" title="Buy a baseball cap to show your support!">Cup With Love Project baseball cap</a>! On your PayPal order or donation form, just specify the color (light khaki or dark khaki) and if you want the optional &quot;survivor&quot; embroidery. We'll take care of the rest!</p>
 
 <div class="donation_requests">
   <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -35,12 +35,12 @@
   <dd>
     <p>Like you, we are very concerned that every dollar received by the Cup With Love Project is spent wisely in support of our stated mission. The Cup With Love Project is supported exclusively by volunteer efforts and donations. 100% of all monetary contributions directly support the mission.</p>
   </dd>
-  
+
   <dt>Is my donation tax deductible?</dt>
   <dd>
     <p>Yes, all contributions to the Cup With Love Project, where no goods or services were received, are tax deductible to the fullest extent of the law.</p>
   </dd>
-  
+
   <dt>How do I donate?</dt>
   <dd>
     <p>Cup With Love Project donations can be made by selecting one of the two options below:</p>
@@ -49,24 +49,24 @@
       <li>Via PayPal (encrypted, secure server to protect your privacy). <?php include 'includes/paypal_form.php' ?></li>
     </ol>
   </dd>
- 
+
   <dt>To what address should donations (cash/check) be sent?</dt>
   <dd>
     <p>Please mail checks to the Cup With Love Project at:</p>
     <address>5050 Laguna Boulevard, Suite 112<br />PMB 614<br />Elk Grove, California 95758</address>
     <p>If you would like to receive an acknowledgement, please provide us with your name, address (including postal/zip code and country), and email address (optional, but preferred).</p>
   </dd>
-  
+
   <dt>How can I increase my donation through my employer?</dt>
   <dd>
     <p>Many employers have matching gift programs.  Check with your Human Resources Department to see if your company has one.  Many employers have Giving Campaigns/programs (e.g., United Way) that involve payroll deductions on a monthly, quarterly or annual basis.</p>
   </dd>
 </dl>
 
-<h2>Donation locations (Sacramento area)</h2>
+<h2>Donation location (Sacramento area)</h2>
 
 <p>We accept the following goods:</p>
-  
+
 <ul class="columns">
   <li>Cups &amp; saucers (antique, collector, used)</li>
   <li>Tea cups (women)</li>
@@ -93,7 +93,7 @@
   <li>Special occasion cups</li>
   <li>Animal pictured cups</li>
 </ul>
-  
+
 
 <ul class="columns">
   <li class="odd">
@@ -101,29 +101,9 @@
     5050 Laguna Blvd., Ste # 112<br />
     Elk Grove, CA 95758<br />
     (916) 684-6244 | ask for Mary</p>
-    
+
     <iframe width="400" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=5050+Laguna+Blvd.,+Ste+%23+112+Elk+Grove,+CA+95758&amp;sll=26.902477,-95.712891&amp;sspn=67.755124,77.958984&amp;ie=UTF8&amp;ll=38.431203,-121.441927&amp;spn=0.020171,0.034332&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
     <p><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=5050+Laguna+Blvd.,+Ste+%23+112+Elk+Grove,+CA+95758&amp;sll=26.902477,-95.712891&amp;sspn=67.755124,77.958984&amp;ie=UTF8&amp;ll=38.431203,-121.441927&amp;spn=0.020171,0.034332&amp;z=14&amp;iwloc=A">larger map</a></p>
-  </li>
-  
-  <li class="even">
-    <p><strong>Buena Vista CDC</strong><br />
-    1412 20th Street<br />
-    Sacramento, CA 95811<br />
-    (916) 446-1200 | ask for Gloria</p>
-    
-    <iframe width="400" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=1412+20th+Street+Sacramento,+CA+95811&amp;sll=38.571902,-121.482274&amp;sspn=0.007608,0.009516&amp;ie=UTF8&amp;ll=38.58105,-121.478062&amp;spn=0.020129,0.034332&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
-		<p><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=1412+20th+Street+Sacramento,+CA+95811&amp;sll=38.571902,-121.482274&amp;sspn=0.007608,0.009516&amp;ie=UTF8&amp;ll=38.58105,-121.478062&amp;spn=0.020129,0.034332&amp;z=14&amp;iwloc=A">larger map</a></p>
-  </li>
-
-  <li class="odd">
-    <p><strong>Chez TJ</strong><br />
-    1012 E. Bidwell #400<br />
-    Folsom, CA 95630<br />
-    (916) 983-9878 | ask for Lesa Trujillo</p>
-    
-    <iframe width="400" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=1012+E.+Bidwell+%23400+Folsom,+CA+95630&amp;sll=38.412551,-121.424031&amp;sspn=0.007625,0.009516&amp;ie=UTF8&amp;z=14&amp;iwloc=A&amp;ll=38.679614,-121.15036&amp;output=embed"></iframe>
-		<p><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=1012+E.+Bidwell+%23400+Folsom,+CA+95630&amp;sll=38.412551,-121.424031&amp;sspn=0.007625,0.009516&amp;ie=UTF8&amp;z=14&amp;iwloc=A&amp;ll=38.679614,-121.15036">larger map</a></p>
   </li>
 </ul>
 
